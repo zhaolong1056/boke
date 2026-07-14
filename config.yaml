@@ -1,0 +1,14 @@
+baseURL: https://zhaolong1056.github.io/boke/
+languageCode: zh-cn
+title: 我的博客
+theme: [papermod]
+publishDir: public
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  author: zhaolong1056
+  description: 个人技术博客
